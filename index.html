@@ -125,6 +125,18 @@
     header{top:12px;}
     nav{margin:0 16px;}
   }
+  @media(max-width:520px){
+    nav{margin:0 12px;padding:8px 8px 8px 14px;}
+    .logo{gap:6px;font-size:14.5px;}
+    .logo svg{width:30px;height:30px;}
+    .navcta{gap:8px;}
+    .navcta .btn-primary{
+      font-size:12.5px;padding:9px 14px;white-space:nowrap;flex-shrink:0;
+    }
+  }
+  @media(max-width:360px){
+    .logo span{display:none;}
+  }
 
   /* Hero Section */
   .hero{
@@ -392,7 +404,7 @@
         <line x1="76.4" y1="121.6" x2="101.9" y2="78.3" stroke="#5CB6F9" stroke-width="26" stroke-linecap="round"/>
         <circle cx="128" cy="121.2" r="13.4" fill="#233DFF"/>
       </svg>
-      Aeonium&nbsp;Tech.
+      <span>Aeonium&nbsp;Tech.</span>
     </a>
     <div class="navlinks">
       <a href="#opportunity">The Credit Gap</a>
