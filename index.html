@@ -106,9 +106,9 @@
     border-color:rgba(255, 255, 255, 0.15);
     box-shadow:0 24px 48px -12px rgba(0, 0, 0, 0.4);
   }
-  .logo{display:flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:18px;color:var(--obsidian);transition:color .3s;}
+  .logo{display:flex;align-items:center;gap:4px;font-family:var(--disp);font-weight:700;font-size:18px;color:var(--obsidian);transition:color .3s;}
   header.scrolled .logo{color:#fff;}
-  .logo svg{width:26px;height:26px;}
+  .logo svg{width:60px;height:60px;}
   .navlinks{display:flex;gap:32px;align-items:center;}
   .navlinks a{
     font-size:14px;font-weight:600;color:var(--obsidian);opacity:.85;
@@ -374,7 +374,7 @@
   .foot-top{display:grid;grid-template-columns:1.5fr repeat(3,1fr);gap:40px;margin-bottom:56px;}
   @media(max-width:800px){.foot-top{grid-template-columns:1fr 1fr;}}
   @media(max-width:520px){.foot-top{grid-template-columns:1fr;}}
-  .foot-logo{display:flex;align-items:center;gap:10px;font-family:var(--disp);font-weight:700;font-size:18px;color:#fff;margin-bottom:14px;}
+  .foot-logo{display:flex;align-items:center;gap:4px;font-family:var(--disp);font-weight:700;font-size:18px;color:#fff;margin-bottom:14px;}
   footer h5{font-family:var(--body);font-weight:600;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#fff;margin-bottom:18px;}
   footer ul{list-style:none;display:flex;flex-direction:column;gap:12px;}
   footer ul a{font-size:14px;color:#A0A8B8;transition:color .15s;}
@@ -388,8 +388,12 @@
 <header>
   <nav>
     <a href="#top" class="logo">
-  Aeonium&nbsp;Tech.
-</a>
+      <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <line x1="76.4" y1="121.6" x2="101.9" y2="78.3" stroke="#5CB6F9" stroke-width="26" stroke-linecap="round"/>
+        <circle cx="128" cy="121.2" r="13.4" fill="#233DFF"/>
+      </svg>
+      Aeonium&nbsp;Tech.
+    </a>
     <div class="navlinks">
       <a href="#opportunity">The Credit Gap</a>
       <a href="#product">Creda&trade; Engine</a>
@@ -453,14 +457,6 @@
               <span class="hero-tag">Low Risk</span>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div class="floating-chip">
-        <img src="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRlYfKplQp7NlEzi2Sj0gZxNWj72Cjg6nBZWaj92ILlNwUcp0MZ251MDxoGlAcI2lBZkOkZD7Tt1Tzg_R4" alt="South African SME Owner Profile">
-        <div>
-          <div style="font-size:12px;color:var(--slate);font-weight:500;">Real-time decisioning</div>
-          <div style="font-size:13.5px;font-weight:700;">Explainable Credit Profile</div>
         </div>
       </div>
     </div>
@@ -714,6 +710,10 @@
     <div class="foot-top">
       <div>
         <div class="foot-logo">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width:50px;height:50px;" aria-hidden="true">
+        <line x1="76.4" y1="121.6" x2="101.9" y2="78.3" stroke="#5CB6F9" stroke-width="26" stroke-linecap="round"/>
+        <circle cx="128" cy="121.2" r="13.4" fill="#233DFF"/>
+      </svg>
           Aeonium Tech.
         </div>
         <p style="font-size:14px;line-height:1.6;max-width:280px;">Unlocking Africa's economic engine through behavioural credit intelligence. Cape Town, South Africa.</p>
